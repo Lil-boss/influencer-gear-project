@@ -78,13 +78,12 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 30px;
-  margin-bottom: 100px;
+  padding: 0 50px;
 }
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   width: 329px;
   height: 476px;
   background-color: #fff;
@@ -129,4 +128,44 @@ body {
   font-size: 14px;
   color: #787885;
   margin-top: 27px;
+}
+
+.exa-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+.exa-button a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #e02c6d;
+}
+/* footer */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 239px;
+  background: #0a0826;
+}
+.info {
+  margin-top: 50px 0 50px 0;
+  text-align: center;
+  color: #fff;
+  line-height: 2;
+}
+
+.info h4 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.fab {
+  color: #fff;
+  margin: 17px 16px;
+  cursor: pointer;
 }
