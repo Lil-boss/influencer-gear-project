@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  color: #aaaaaa;
+}
+.the-button {
+  background-color: #e02c6d;
+  color: #fff;
+  height: 44px;
+  width: 196px;
+  padding: 10px, 24px, 10px, 24px;
+  border-radius: 41px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  margin-top: 16.1px;
+}
+.btn-icon {
+  margin-left: 20px;
+}
+
+.influence {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 133px;
+  padding: 20px;
+}
+.influence-left {
+  padding: 80px;
+}
+.influence-left h1 {
+  color: #3a3a3a;
+  margin-bottom: 20px;
+}
+.influence-left p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+.influence-right {
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  width: 475px;
+  height: 475px;
+}
+.influence-right img {
+  width: 440px;
+  height: 414px;
+  padding: 50px;
+}
+
+/* collection */
+.collection {
+  margin-top: 100px;
+  text-align: center;
+}
+.collection h2 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 329px;
+  height: 476px;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 300px;
+  height: 256px;
+  margin-top: 14px;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 14px;
+}
+.card-info h2 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+}
+.card-info h4 {
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.fill-star {
+  color: #fb8200;
+}
+.empty-star {
+  color: #69666767;
+}
+.stars span {
+  font-weight: bold;
+  font-size: 14px;
+  color: #5e6366;
+}
+.card-info p {
+  font-weight: bold;
+  font-size: 14px;
+  color: #787885;
+  margin-top: 27px;
+}
