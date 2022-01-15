@@ -29,6 +29,10 @@ body {
   margin-top: 16.1px;
   transition: width 2.5s linear;
 }
+.the-button span {
+  font-weight: 600;
+  font-size: 16px;
+}
 .btn-icon {
   margin-left: 20px;
 }
