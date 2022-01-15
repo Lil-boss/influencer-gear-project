@@ -34,15 +34,45 @@ body {
 .the-button:hover {
   width: 250px;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 50px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.navigation li {
+  list-style: none;
+}
+.navigation li a {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 20px;
+}
 
+/* header section css */
 .influence {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 133px;
-  padding: 20px;
+  padding: 50px;
 }
 .influence-left {
-  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .influence-left h1 {
   color: #3a3a3a;
@@ -57,8 +87,6 @@ body {
 .influence-right {
   background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
-  width: 475px;
-  height: 475px;
 }
 .influence-right img {
   width: 440px;
