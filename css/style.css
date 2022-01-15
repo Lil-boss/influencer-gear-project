@@ -7,7 +7,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-/* common css */
+/* *************
+  common css 
+****************/
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -15,6 +17,8 @@ body {
   color: #aaaaaa;
   overflow-x: hidden;
 }
+
+/* ===========button=========== */
 .the-button {
   background-color: #e02c6d;
   color: #fff;
@@ -40,7 +44,9 @@ body {
 .the-button:hover {
   width: 250px;
 }
-/* navbar css */
+/*==================
+     navbar css 
+====================*/
 nav {
   display: flex;
   justify-content: space-between;
@@ -68,7 +74,9 @@ nav {
   padding: 15px 20px;
 }
 
-/* header section css */
+/*======================
+   header section css 
+========================*/
 .influence {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -105,7 +113,9 @@ nav {
   padding: 50px;
 }
 
-/* collection */
+/* ==============
+    collection 
+  ===============*/
 .collection {
   margin-top: 100px;
   text-align: center;
@@ -187,7 +197,9 @@ nav {
   font-size: 16px;
   color: #e02c6d;
 }
-/* newsletter */
+/* ===============
+      newsletter
+  ================ */
 .newsletter {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -268,7 +280,9 @@ nav {
   font-weight: bold;
 }
 
-/* footer */
+/* ==============
+       footer 
+  ==============*/
 .content {
   display: flex;
   flex-direction: column;
@@ -296,7 +310,9 @@ nav {
   cursor: pointer;
 }
 
-/* responsive css */
+/* ==================
+  responsive css 
+=====================*/
 @media (max-width: 950px) {
   .influence,
   .newsletter {
@@ -312,7 +328,6 @@ nav {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .newsletter-left {
     order: 2;
   }
