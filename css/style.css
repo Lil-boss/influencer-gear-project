@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
   padding: 0 30px;
   color: #aaaaaa;
+  overflow-x: hidden;
 }
 .the-button {
   background-color: #e02c6d;
@@ -75,6 +76,8 @@ nav {
   justify-content: center;
 }
 .influence-left h1 {
+  font-weight: bold;
+  font-size: 52px;
   color: #3a3a3a;
   margin-bottom: 20px;
 }
@@ -87,6 +90,8 @@ nav {
 .influence-right {
   background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
+  width: 475px;
+  height: 475px;
 }
 .influence-right img {
   width: 440px;
@@ -285,4 +290,63 @@ nav {
   color: #fff;
   margin: 17px 16px;
   cursor: pointer;
+}
+
+/* responsive css */
+@media (max-width: 950px) {
+  .influence,
+  .newsletter {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .influence-left {
+    display: flex;
+    order: 2;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .newsletter-left {
+    order: 2;
+  }
+}
+
+@media (max-width: 800px) {
+  nav {
+    justify-content: center;
+  }
+  .navigation {
+    display: none;
+  }
+  .logo h2 {
+    font-size: 20px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .influence,
+  .newsletter,
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .influence-right {
+    background: none;
+  }
+  .influence-left h1 {
+    font-size: 15px;
+  }
+  .newsletter-left h1 {
+    font-size: 1.3em;
+  }
 }
